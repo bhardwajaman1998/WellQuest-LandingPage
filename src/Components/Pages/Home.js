@@ -49,16 +49,16 @@ function Home() {
       </div>
 
       <div className="banner">
+        <div className="bannerParagraph">
+          <p>
+            Elevate your fitness journey with <br />
+            precision and insight. <strong>Tailored for you!</strong>
+          </p>
+        </div>
         <img className="banner-large" src={bannerlarge} alt="banner" />
         <img className="banner-mobile" src={bannerMobile} alt="banner" />
 
         <button className="banner-button">GET STARTED</button>
-        {/* <div className="bannerParagraph"> */}
-        {/* <p>
-            Elevate your fitness journey with <br />
-            precision and insight. <strong>Tailored for you!</strong>
-          </p> */}
-        {/* </div> */}
       </div>
       <div>
         <h2>FEATURES</h2>

@@ -126,9 +126,7 @@ h3 {
     transform: translateX(-50%);
     z-index: 1;
   }
-  /* .banner-button {
-    margin-top: 0px;
-  } */
+
   h3 {
     text-align: center;
     margin-bottom: -10px;
@@ -286,8 +284,11 @@ h3 {
     padding-bottom: 280px;
     margin-left: -20px;
     padding-top: 220px;
-    transform: translateX(-50%);
     z-index: 1;
+    position: relative;
+    top: unset;
+    left: unset;
+    transform: none; /* Reset transform */
   }
 
   .banner-button {
@@ -302,7 +303,7 @@ h3 {
     bottom: 300px;
     left: 18%;
     transform: translateX(-50%);
-    z-index: 2;
+    z-index: 1;
   }
 
   h3 {
