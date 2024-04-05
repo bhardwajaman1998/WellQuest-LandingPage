@@ -47,16 +47,18 @@ function Home() {
           ☰
         </div>
       </div>
-      <div className="banner">
-        <p className="bannerParagraph">
-          Elevate your fitness journey with <br />
-          precision and insight. <strong>Tailored for you!</strong>
-        </p>
 
+      <div className="banner">
         <img className="banner-large" src={bannerlarge} alt="banner" />
         <img className="banner-mobile" src={bannerMobile} alt="banner" />
 
         <button className="banner-button">GET STARTED</button>
+        {/* <div className="bannerParagraph"> */}
+        {/* <p>
+            Elevate your fitness journey with <br />
+            precision and insight. <strong>Tailored for you!</strong>
+          </p> */}
+        {/* </div> */}
       </div>
       <div>
         <h2>FEATURES</h2>
@@ -77,8 +79,10 @@ function Home() {
       </div>
 
       <h2>OUR GOAL</h2>
-      <p>Empowering fitness business and trainers to support</p>
-      <p> customers in achieving their nutrition goals.</p>
+      <p>
+        Empowering fitness business and trainers to support <br /> customers in
+        achieving their nutrition goals.
+      </p>
       <div className="goal">
         <img className="goallarge" src={goallarge} alt="goals" />
       </div>
@@ -86,19 +90,19 @@ function Home() {
         <img className="banner2large2" src={banner2large2} alt="banner" />
         <img className="banner2mobile" src={banner2mobile} alt="banner" />
       </div>
+      <h2>THE TEAM</h2>
+      <p>
+        We embrace a dynamic and innovative mindset that is <br />
+        reflected in our approach to problem-solving.
+      </p>
       <div className="team-wrapper">
-        <h2 className="teamhead">THE TEAM</h2>
-        <p>
-          We embrace a dynamic and innovative mindset that is reflected in our
-          approach to problem-solving.
-        </p>
         <div className="team designerteam">
           <img className="team1" src={team1} alt="features" />
           <img className="team2" src={team2} alt="features" />
           <img className="team3" src={team3} alt="features" />
+          <img className="team4" src={team4} alt="features" />
         </div>
         <div className="team developerteam">
-          <img className="team4" src={team4} alt="features" />
           <img className="team5" src={team5} alt="features" />
           <img className="team6" src={team6} alt="features" />
           <img className="team7" src={team7} alt="features" />
