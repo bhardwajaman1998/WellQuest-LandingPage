@@ -49,19 +49,23 @@ function Home() {
       </div>
 
       <div className="banner">
-        <div className="bannerParagraph">
-          <p>
-            Elevate your fitness journey with <br />
-            precision and insight. <strong>Tailored for you!</strong>
-          </p>
-        </div>
         <img className="banner-large" src={bannerlarge} alt="banner" />
         <img className="banner-mobile" src={bannerMobile} alt="banner" />
 
         <button className="banner-button">GET STARTED</button>
       </div>
+      <div className="bannerParagraph">
+        <p className="bpMobile">
+          Elevate your fitness journey with <br />
+          precision and insight. <strong>Tailored for you!</strong>
+        </p>
+        <p className="bplarge">
+          Elevate your fitness journey with <br />
+          precision and insight. <strong>Tailored for you!</strong>
+        </p>
+      </div>
       <div>
-        <h2>FEATURES</h2>
+        <h2 className="feature">FEATURES</h2>
         <h3>Customer Side Main Feaututes</h3>
         <div className="featureImages">
           <img className="image1" src={image1} alt="features" />
@@ -77,13 +81,13 @@ function Home() {
           <img className="image6" src={image6} alt="features" />
         </div>
       </div>
-
-      <h2>OUR GOAL</h2>
-      <p>
-        Empowering fitness business and trainers to support <br /> customers in
-        achieving their nutrition goals.
-      </p>
       <div className="goal">
+        <h2>OUR GOAL</h2>
+        <p>
+          Empowering fitness business and trainers to support customers in
+          achieving their nutrition goals.
+        </p>
+
         <img className="goallarge" src={goallarge} alt="goals" />
       </div>
       <div className="banner2">
@@ -92,8 +96,8 @@ function Home() {
       </div>
       <h2>THE TEAM</h2>
       <p>
-        We embrace a dynamic and innovative mindset that is <br />
-        reflected in our approach to problem-solving.
+        We embrace a dynamic and innovative mindset that is reflected in our
+        approach to problem-solving.
       </p>
       <div className="team-wrapper">
         <div className="team designerteam">
