@@ -44,7 +44,7 @@ function Home() {
           </a>
         </div>
         <div className="navbar-toggle" onClick={toggleNavbar}>
-          ☰
+                {navbarActive ? '✖' : '☰'}
         </div>
       </div>
 
@@ -132,7 +132,7 @@ function Home() {
           </div>
           <div>
             <div className="contactlabel">
-              <label htmlFor="message">Message:</label>
+              <label>Message:</label>
             </div>
             <textarea placeholder="Your message here" required />
           </div>
